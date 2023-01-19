@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:nomadcoders_toonflix/screens/home_screen.dart';
 
 void main(List<String> args) {
@@ -8,7 +6,7 @@ void main(List<String> args) {
 }
 
 class App extends StatelessWidget {
-  const App({super.key});
+  const App({super.key}); // 해당 위젯의 key를 stateless widget이라는 슈퍼 클래스에 보낸다.
 
   @override
   Widget build(BuildContext context) {
